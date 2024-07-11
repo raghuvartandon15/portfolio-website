@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/your-repo-name/', // Replace 'your-repo-name' with your GitHub repository name
+  base: '/portfolio_website/', // Replace 'your-repo-name' with your GitHub repository name
   plugins: [react()],
   build: {
     outDir: 'dist',
