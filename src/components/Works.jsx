@@ -1,5 +1,5 @@
 import React from "react";
-import {Tilt} from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -31,6 +31,10 @@ const ProjectCard = ({
             src={image}
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src = "./logo.svg"; // Fallback image path
+            }}
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
