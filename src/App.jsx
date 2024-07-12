@@ -21,7 +21,7 @@ const App=()=> {
           <div className="relative z-0">
             <Contact/>
             {/* <EarthCanvas/> */}
-            <StarsCanvas/> 
+            {/* <StarsCanvas/>  */}
           </div>
         </div>
       </BrowserRouter>

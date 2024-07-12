@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -120,6 +121,22 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+
+        {/* Social Media Icons */}
+        <div className="mt-8 flex justify-center gap-4">
+          <a href="https://www.facebook.com/share/14Vbcm7vFUBH9uyx/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
+            <FaFacebook size={30} className="text-white hover:text-blue-600" />
+          </a>
+          <a href="https://www.instagram.com/raghuvar.tandon?igsh=OXE1dzNwejByMWNs&utm_source=qr" target="_blank" rel="noopener noreferrer">
+            <FaInstagram size={30} className="text-white hover:text-pink-600" />
+          </a>
+          <a href="https://www.linkedin.com/in/raghuvar-tandon-180b69273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={30} className="text-white hover:text-blue-800" />
+          </a>
+          <a href="https://github.com/raghuvartandon15" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={30} className="text-white hover:text-gray-600" />
+        </a>
+        </div>
       </motion.div>
 
       <motion.div
