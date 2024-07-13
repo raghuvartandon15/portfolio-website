@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { Navbar, Hero, StarsCanvas } from "./components";
 
 // Dynamic imports for components
@@ -15,7 +15,7 @@ const Works = lazy(() => import("./components/Works"));
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
@@ -36,7 +36,7 @@ const App = () => {
           </div>
         </Suspense>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
