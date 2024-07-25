@@ -36,7 +36,7 @@ import {
   import snake from '../assets/snake.webp';
   import scholar from '../assets/scholar.png';
   import dsa from '../assets/dsa.jpg';
-  
+  import asl from '../assets/asl.png';
   
   export const navLinks = [
     {
@@ -285,25 +285,25 @@ import {
       source_code_link: "https://github.com/raghuvartandon15/SIH-23-project",
     },
     {
-      name: "data science",
+      name: "ASL Hand Sign Detection",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed a real-time ASL hand sign detection system using a webcam, leveraging machine learning algorithms for model training and computer vision techniques for preprocessing and feature extraction, achieving high accuracy in recognizing and translating hand signs into alphabets.",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "TensorFlow",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "OpenCV",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: asl,
+      source_code_link: "https://github.com/raghuvartandon15/ASL-Hand-Sign-Detection",
     },
     {
       name: "DSA",
