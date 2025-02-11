@@ -55,19 +55,19 @@ import {
   
   const services = [
     {
+      title: "ML & AI Practitioner",
+      icon: mobile,
+    },
+    {
+      title: "Cloud Engineer",
+      icon: backend,
+    },
+    {
       title: "Web Developer",
       icon: web,
     },
     {
-      title: "Machine Learning Enthusiast",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Grade-5 guitarist",
+      title: "Grade-8 guitarist",
       icon: creator,
     },
   ];

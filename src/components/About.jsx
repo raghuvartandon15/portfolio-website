@@ -44,8 +44,11 @@ const About = () => {
       <h2 className={styles.sectionHeadText}>Overview.</h2>
     </motion.div>
     <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondry text-[17px] max-w-3xl leading-[30px]'>
-    As a skilled and motivated Bachelor of Computer Applications student with a passion for technology, I am
-    currently working towards developing a proficient foundation programming languages such as Java, C/C++, and Python. I am a team-oriented individual who values the significance of collaboration in achieving success on technical projects. In my leisure time, I indulge in hobbies including music, editing, and cycling, which allow me to exercise both my creative faculties and physical endurance. With a strong desire to constantly learn and grow, I am confident in my ability to bring value to any team. Whether working on a technical project or collaborating with my peers, I am committed to achieving excellence and producing impactful work through hard work and exceptional communication skills. I am eager to utilise my understanding of the latest technologies and dedication to teamwork to make a meaningful contribution to any professional setting.
+    As a final-year Bachelor of Computer Applications student, I have built a strong foundation in programming, machine learning, and artificial intelligence. Proficient in Python, Java, C/C++, and cloud technologies, I specialize in ML, NLP, deep learning, and MLOps—applying these skills to real-world projects like AI-driven resume screening, recommendation systems, and computer vision applications.
+
+A team-oriented problem solver, I value collaboration in technical projects and excel in deploying AI models for scalable, cloud-based solutions. Passionate about innovation and continuous learning, I stay updated with emerging technologies.
+
+Beyond software, I have experience working with hardware components like Arduino, integrating AI with IoT for automation and smart systems. I enjoy building AI-powered hardware projects that combine computer vision, embedded systems, and real-time processing for practical applications.
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
