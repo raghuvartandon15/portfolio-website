@@ -33,6 +33,7 @@ import {
   import seaborn from '../assets/tech/seaborn.png';
   import scikit from '../assets/tech/scikit.png';
   import tailwind from '../assets/tech/tailwind.png';
+  import resAI from '../assets/resAI.png';
   import snake from '../assets/snake.webp';
   import scholar from '../assets/scholar.png';
   import dsa from '../assets/dsa.jpg';
@@ -243,25 +244,25 @@ import {
     //   source_code_link: "https://github.com/",
     // },
     {
-      name: "Snake Game",
+      name: "Resume Screening AI System",
       description:
-      "A basic and simple GUI based project in Java. Based on the game Snake and Apples. With responsive design and customizable settings. Players navigate the snake to consume apples while avoiding collisions, with increasing difficulty levels.",
+      "Developed an advanced Resume Screening AI System integrating NLP and neural networks for precise classification of resume types and tailored job recommendations. Implemented PDF-to-text conversion workflows and CI/CD pipelines and deployed the solution on Railway cloud for scalable recruitment automation.",
       tags: [
         {
-          name: "Java",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "Swing",
+          name: "TensorFlow",
           color: "green-text-gradient",
         },
         {
-          name: "AWT",
+          name: "NLP",
           color: "pink-text-gradient",
         },
       ],
-      image: snake,
-      source_code_link: "https://github.com/raghuvartandon15/Snake-game/tree/main",
+      image: resAI,
+      source_code_link: "https://github.com/raghuvartandon15/ResumeScreening",
     },
     {
       name: "Scholar Connect (Smart India Hackathon 2023)",
@@ -289,9 +290,9 @@ import {
       source_code_link: "https://github.com/raghuvartandon15/SIH-23-project",
     },
     {
-      name: "ASL Hand Sign Detection",
+      name: "ShAIdes",
       description:
-        "Developed a real-time ASL hand sign detection system using a webcam, leveraging machine learning algorithms for model training and computer vision techniques for preprocessing and feature extraction, achieving high accuracy in recognizing and translating hand signs into alphabets.",
+        "Developed shAIdes, a wireless smart home solution using Arduino Uno, Raspberry Pi, relays, and frameworks like YOLO and MediaPipe. Users wear camera-integrated glasses that detect household items like bulbs and recognize gestures to control them. The system streams video to a Raspberry Pi, which processes inputs and wirelessly signals the Arduino Uno to toggle devices, enabling seamless automation and interactivity.",
       tags: [
         {
           name: "Python",
@@ -305,30 +306,38 @@ import {
           name: "OpenCV",
           color: "pink-text-gradient",
         },
+        {
+          name: "Mediapipe",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "YOLO",
+          color: "green-text-gradient",
+        }
       ],
       image: asl,
-      source_code_link: "https://github.com/raghuvartandon15/ASL-Hand-Sign-Detection",
+      source_code_link: "https://github.com/raghuvartandon15/shAIdes",
     },
     {
-      name: "DSA",
+      name: "Snake Game",
       description:
-        "I successfully completed 30 days of intensive study in Data Structures and Algorithms, covering fundamental data structures like arrays, linked lists, trees, stacks, queues, graphs as well as essential algorithms such as sorting, searching, and dynamic programming.",
+        "A basic and simple GUI based project in Java. Based on the game Snake and Apples. With responsive design and customizable settings. Players navigate the snake to consume apples while avoiding collisions, with increasing difficulty levels.",
       tags: [
         {
           name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "Python",
+          name: "Swing",
           color: "green-text-gradient",
         },
         {
-          name: "C++",
+          name: "AWT",
           color: "pink-text-gradient",
         },
       ],
-      image: dsa,
-      source_code_link: "https://github.com/raghuvartandon15/LeetCode",
+      image: snake,
+      source_code_link: "https://github.com/raghuvartandon15/Snake-game",
     },
   ];
   
