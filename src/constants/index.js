@@ -37,6 +37,10 @@ import {
   import scholar from '../assets/scholar.png';
   import dsa from '../assets/dsa.jpg';
   import asl from '../assets/asl.png';
+  import aws from '../assets/tech/aws.png';
+  import TensorFlow from '../assets/tech/Tensorflow.png';
+  import rjs from '../assets/tech/reactjs.png';
+  import pytorch from '../assets/tech/pytorch.jpg';
   
   export const navLinks = [
     {
@@ -74,24 +78,20 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "ReactJs",
+      icon: rjs,
     },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "Git",
-      icon: git,
-    },
-    {
-      name: "Figma",
-      icon: figma,
+      name: "Java",
+      icon: java,
     },
     {
       name: "Python",
@@ -102,25 +102,29 @@ import {
       icon: Mysql,
     },
     {
-      name: "Java",
-      icon: java,
+      name: "Git",
+      icon: git,
     },
     {
-      name: "C++",
-      icon: C_add_add,
+      name: "Figma",
+      icon: figma,
     },
     {
-      name: "C",
-      icon: C,
+      name: "PyTorch",
+      icon: pytorch,
+    },
+    {
+      name: "TensorFlow",
+      icon: TensorFlow,
+    },
+    {
+      name: "AWS",
+      icon: aws,
     },
     // {
-    //   name: "React",
-    //   icon: reactjs,
+    //   name: "Swift",
+    //   icon: swift,
     // },
-    {
-      name: "Swift",
-      icon: swift,
-    },
     {
       name: "Seaborn",
       icon: seaborn,
